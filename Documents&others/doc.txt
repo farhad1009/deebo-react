@@ -1,0 +1,72 @@
+<p><strong>Deebo | Personal Portfolio React, NextJS Template</strong> is for many purpose like personal, CV, agencies, personal portfolio, photography, freelancer portfolios etc. Users will love Your site because it gives them a unique user experience (UX). All files are well organized and named accordingly so its very easy to change any and all of the design.</p>
+
+<p>In order to edit the file, you need to have Code Writer program installed on your system. Just open files in code writer and edit them.</p>
+
+
+
+<a href="https://themeforest.net/item/deebo-personal-portfolio-html-template/35251276"><img src="https://i.ibb.co/r5xKYz6/687474703a2f2f7261696e626f7769742e6e65742f7265736f757263652f7261696e626f772f617661696c61626c652f6874.png" alt="Deebo HTML Template by Frenify" border="0"></a>
+
+<img src="https://camo.envatousercontent.com/49af68e5cfe3b365888a84e1f0e62607a32cc59c/68747470733a2f2f692e6962622e636f2f644d4c7a3568322f657a6769662d636f6d2d6769662d6d616b65722e676966" alt="ezgif-com-gif-maker">
+
+<img src="https://camo.envatousercontent.com/96afda51a39a72cf04255351a45d4a95372c0d01/68747470733a2f2f692e6962622e636f2f4b7759545948562f322e6a7067" alt="2">
+
+
+<h3 id="item-description__features-overview">Features Overview</h3>
+<ul>
+	<li>
+		<strong>NextJS Framework:</strong>
+		<br/>Next JS is the most popular react framework for developing high quality featured production which gives the hybrid static & server rendering, smart building, route pre-fetching and more. nothing need to concigure.
+	</li>
+</ul>
+
+<ul>
+	<li>
+		<strong>Responsive Layout Design:</strong>
+		<br/> What ever you are using the device your site will run as it should be. Appz React template is fully responsive layout for all type of devices.
+	</li>
+</ul>
+
+<ul>
+	<li>
+		<strong>Valid components :</strong>
+		<br/>Deebo React template coded with beautiful and clean codes! with some powerful components 100% valid W3 web standards.
+	</li>
+</ul>
+
+
+<p><strong>NOTE:</strong> The images used in the template are not included in the main download file, they are only for the preview purpose.</p>
+
+<h3 id="item-description__full-features-list">Full Features List</h3>
+
+<ul> 
+	<li>Pixel Perfect Design</li>
+	<li>React, Next JS</li>
+	<li>ReactJS without jQuery</li>
+	<li>Cross-Browser Compatibility</li>
+	<li>Sidebar Navigation</li>
+	<li>Unique Animations</li>
+	<li>Free Lifetime Updates</li>
+	<li>Product Details Layouts/Styles</li>
+	<li>Google Fonts</li>
+	<li>100% Responsive</li>
+	<li>Nice and Clean Design</li>
+	<li>Clean and commented code</li>
+	<li>Customizeable all components of each page</li>
+	<li>W3C Validated Code</li>	
+	<li>Easy to customize</li>
+	<li>Flexible and multi-purpose</li>
+	<li>Valid / CSS3</li>
+	<li>Amazing 5 stars support</li>
+	<li>24/7 Awesome support</li>
+	<li>Detailed documentation</li>
+	<li>And much more…</li>
+</ul>
+
+<h3 id="item-description__fonts-used">Fonts Used</h3>
+<ul>
+    <li><a href="https://fonts.google.com/specimen/Jost"> Google Font (Jost) </li>
+</ul>
+<h3 id="item-description__fonts-used">Image Credits</h3>
+<ul>
+    <li><a href="https://pexels.com/" rel="nofollow">Pixels.com</a></li>
+</ul>

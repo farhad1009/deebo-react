@@ -4,7 +4,7 @@ export default function Services() {
     return(
         <>
             {/* Section Services */}
-            <secton id="services" class="section_services">
+            <div id="services" class="section_services">
                 <div class="container">
                     <div class="services_wrapper">
                         <div class="services_title">
@@ -78,7 +78,7 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-            </secton>
+            </div>
             {/* /Section Services */}
         </>
     );

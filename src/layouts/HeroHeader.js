@@ -63,12 +63,10 @@ export default function HeroHeader({ resumeTrueFalse }) {
                         <div class="right_hero_header">
                             <div class="my_self">
                                 <h4>Hello! I Am</h4>
-                                <h2>
-                                    {/* - It is animation title. You can change animation variation by changing extra class to one of next classes: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push. cd-headline class can not be removed.  */}
-                                    <span class="cd-headline clip">
-                                        <span class="cd-words-wrapper">
-                                            <b class="is-visible"></b>
-                                        </span>
+                                {/* - It is animation title. You can change animation variation by changing extra class to one of next classes: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push. cd-headline class can not be removed.  */}
+                                <h2 class="cd-headline clip">
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible"></b>
                                     </span>
                                 </h2>
                             </div>

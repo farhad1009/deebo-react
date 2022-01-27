@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer_content">
           <p>Copyright © 2022. All rights reserved.<br />
-            Developed by <a href="https://trendycoder.com@gmail.com/" target="_blank">TrendyCoder</a>
+            Developed by <a href="https://trendycoder.com/" target="_blank">TrendyCoder</a>
           </p>
         </div>
       </div>

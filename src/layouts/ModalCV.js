@@ -77,9 +77,9 @@ export default function ModalCV({ resumeTrueFalse }) {
                                     <li><p>Nationality: <span>American</span></p></li>
                                     <li><p>Adress: <span>London, UK</span></p></li>
                                     <li><p>Telegram: <span>Available</span></p></li>
-                                    <li><p>Phone: <span><a href="tel:+17785355344">(+1) 7785 355 344</a></span></p></li>
+                                    <li><p>Phone: <span><a href="tel:+8801674052925">(+880) 1674 052 925</a></span></p></li>
                                     <li><p>Skype: <span>Adam.M</span></p></li>
-                                    <li><p>Email: <span><a href="mailto:flabteam@gmail.com">flabteam@gmail.com</a></span></p></li>
+                                    <li><p>Email: <span><a href="mailto:farhad1009@gmail.com">farhad1009@gmail.com</a></span></p></li>
                                 </ul>
                             </div>
                         </section>
@@ -376,7 +376,7 @@ export default function ModalCV({ resumeTrueFalse }) {
                                     <li>
                                         <div class="item">
                                             <div class="item_left">
-                                                <p>The best theme in the world ;) Really love it. Support is amazing, and they always help me with my problems. To be honest - I have earlier other theme, but this is so good, that why I choose it</p>
+                                                <p>The best theme in the world ; Really love it. Support is amazing, and they always help me with my problems. To be honest - I have earlier other theme, but this is so good, that why I choose it</p>
                                             </div>
                                             <div class="item_right">
                                                 <div class="t_ava">

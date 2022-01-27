@@ -1,47 +1,60 @@
 import Head from "next/head";
-// import { useEffect, useState } from "react";
+import { useState ,useEffect} from "react";
 // import PanelContent from "../components/PanelContent";
-// import { aTagClick, customCursor, dataImage, sticky } from "../utilits";
+import {dataImage } from "../utilits";
 // import Cursor from "./Cursor";
 import Footer from "./Footer";
 import HeroHeader from "./HeroHeader";
+import ModalBox from "./ModalBox";
+import ModalCV from "./ModalCV";
 import Nav from "./Nav";
-// import Triggger from "./Triggger";
+import Overlay from "./Overlay";
+import RightBar from "./RightBar";
 
 const Layout = ({ children }) => {
-  // const [trigger, setTrigger] = useState(false);
-  // useEffect(() => {
-  //   dataImage();
-  //   customCursor();
-  //   aTagClick();
-  //   window.addEventListener("scroll", sticky);
-  // });
-  // const triggerMenu = () => {
-  //   setTrigger(!trigger);
-  //   document.querySelector(".resumo_fn_wrapper").classList.toggle("nav-opened");
-  // };
+  useEffect(() => {
+    dataImage();
+  });
+  
+  const [isResume, setResume] = useState(false);
+  const resumeTrueFalse = () => {
+    document.querySelector("body").classList.toggle("resume-opened")
+  }
+
+  const [isToggled, setToggled] = useState(false);
+  const toggleTrueFalse = () => {document.querySelector("body").classList.toggle("rightbar-opened")}
+ 
+  
+
+  
   return (
     <>
       <Head>
         <title>Deebo | Personal Portfolio React NextJS Template</title>
       </Head>
+      <body>
+        <div class="deebo_fn_main">
+          <Overlay />
+          <ModalBox />
+          <ModalCV resumeTrueFalse={resumeTrueFalse} />
+          <RightBar toggleTrueFalse={toggleTrueFalse} />
+          <div class="deebo_fn_wrapper">
+            {/* Deebo Page */}
+            <div class="deebo_page">
+              <Nav toggleTrueFalse={toggleTrueFalse} />
+              <HeroHeader resumeTrueFalse={resumeTrueFalse} />
+              <div className="main">
+                {children}
+              </div>
+              <Footer />
 
-      <div class="deebo_fn_wrapper">
-
-        {/* Deebo Page */}
-        <div class="deebo_page">
-          <Nav />
-          <HeroHeader />
-          <div className="main">
-            {children}
+            </div>
+            {/* Totop Button */}
+            <a href="#" class="deebo_fn_totop"></a>
+            {/* /Totop Button */}
           </div>
-          <Footer />
-
         </div>
-        {/* Totop Button */}
-        <a href="#" class="deebo_fn_totop"></a>
-        {/* /Totop Button */}
-      </div>
+      </body>
     </>
   );
 };

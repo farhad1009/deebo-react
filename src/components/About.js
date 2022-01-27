@@ -1,4 +1,5 @@
 import React from 'react';
+import {SVG_Twitter, SVG_Facebook, SVG_Instagram, SVG_Pinterest, SVG_Youtube} from '../../public/svg/svg'
 
 export default function About() {
   return (
@@ -15,27 +16,27 @@ export default function About() {
               <ul>
                 <li>
                   <a href="#" target="_blank" title="twitter.com">
-                    <img class="fn__svg" src="svg/twitter.svg" alt="twitter.com" />
+                    <SVG_Twitter/>
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank" title="facebook.com">
-                    <img class="fn__svg" src="svg/facebook-logo.svg" alt="facebook.com" />
+                    <SVG_Facebook/>
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank" title="instagram.com">
-                    <img class="fn__svg" src="svg/instagram.svg" alt="instagram.com" />
+                    <SVG_Instagram/>
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank" title="printerest.com">
-                    <img class="fn__svg" src="svg/pinterest.svg" alt="printerest.com" />
+                    <SVG_Pinterest/>
                   </a>
                 </li>
                 <li>
                   <a href="#" target="_blank" title="youtube.com">
-                    <img class="fn__svg" src="svg/youtube.svg" alt="youtube.com" />
+                    <SVG_Youtube/>
                   </a>
                 </li>
               </ul>

@@ -17,7 +17,7 @@ export default function Work() {
                         </div>
                         <div class="work_content_right_bar">
                             <div class="right_bar_wrapper">
-                                <div class="deduma_image" data-bg-img="img/about/1.jpg"></div>
+                                <div class="deduma_image" style={{"backgroundImage":"url(img/about/1.jpg)"}}></div>
                                 <img src="img/thumb/square.jpg" alt="" />
                             </div>
                         </div>

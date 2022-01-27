@@ -32,7 +32,6 @@ const Layout = ({ children }) => {
       <Head>
         <title>Deebo | Personal Portfolio React NextJS Template</title>
       </Head>
-      <body>
         <div class="deebo_fn_main">
           <Overlay />
           <ModalBox />
@@ -54,7 +53,6 @@ const Layout = ({ children }) => {
             {/* /Totop Button */}
           </div>
         </div>
-      </body>
     </>
   );
 };
